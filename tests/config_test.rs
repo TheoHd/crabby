@@ -1,4 +1,4 @@
-use crabcleaner::App;
+use crabby::App;
 
 #[test]
 fn config_get_filename_works() {
