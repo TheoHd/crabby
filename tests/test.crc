@@ -1,0 +1,39 @@
+// Test Start
+
+
+// ===============
+// Move commands
+// ===============
+
+// Bad
+mv *.mp3                                              // This rule returns an error because it misses keyword(s) or pattern(s).
+file.mp3 to C:/Users/Username/Documents/Music         // This rule returns an error because it misses keyword(s) or pattern(s).
+
+// Good
+mv file.mp3 to C:\Users\Username\Documents\Music      // This rule moves `file.mp3` to the Music folder
+
+// ===============
+// Prefix commands
+// ===============
+
+// Bad
+pre *presentation.pdf                                 // This rule returns an error because it misses keyword(s) or pattern(s).
+*presentation.pdf with urgent                         // This rule returns an error because it misses keyword(s) or pattern(s).
+
+// Good
+pre *presentation.pdf with urgent                     // This rule adds `urgent` to the beginning of all files that finishes with `presentation.pdf`.
+
+// ===============
+// Suffix commands
+// ===============
+
+// Bad
+suf *presentation.pdf                                 // This rule returns an error because it misses keyword(s) or pattern(s).
+*presentation with urgent                             // This rule returns an error because it misses keyword(s) or pattern(s).
+suf *presentation to _urgent                          // This rule returns an error because the pair of keyword doesn't exists.
+
+// Good
+suf *presentation.pdf with _urgent                    // This rule adds `_urgent` at the end of all files that finishes with `presentation.pdf`.
+
+
+// Test End
