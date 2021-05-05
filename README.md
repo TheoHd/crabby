@@ -83,7 +83,7 @@ suf *presentation.pdf with _urgent                    // This rule adds `_urgent
 - [X] Add a dry-run mode
 - [X] Add interactive mode
 
-#### August 2020 v0.2.0
+#### August 2021 v0.2.0
 
 - [X] Replace image in README.md by ASCII Art
 - [ ] Add terminal UI
@@ -114,7 +114,7 @@ unzip *music.zip to %USERPROFILE%/Documents/Music     // This rule unzip all fil
 - [ ] Add global variables on Windows (e.g. %USERPROFILE%).
 - [ ] Add "/" on Windows for absolute paths.
 
-#### September 2020 v0.3.0
+#### September 2021 v0.3.0
 
 - [ ] Add `crabby -c ./* # Clean the current folder and all the subfolders with one level of depth`
 - [ ] Add `crabby -c ./*/* # Clean the current folder and all the subfolders with two level of depth`
@@ -122,7 +122,7 @@ unzip *music.zip to %USERPROFILE%/Documents/Music     // This rule unzip all fil
 - [ ] Add Linux support.
 - [ ] Add Mac support.
 
-#### October 2020 v0.4.0
+#### October 2021 v0.4.0
 
 - [ ] Add feature to loop directly on some folders to automatically apply rules
 
