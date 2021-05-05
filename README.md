@@ -1,6 +1,6 @@
-# crab-cleaner
+# Crabby
 
-CrabCleaner is a fast and safe way to manipulate files directly from your command line.
+Crabby is a fast and safe way to manipulate files directly from your command line.
 
 ## Commands
 
@@ -21,13 +21,13 @@ For all the commands example, we place ourselves in the `John` folder.
 ### Clean
 
 ```shell
-crabcleaner -c . # Clean the current folder with the .crc file that is in the current folder
-crabcleaner -c ./Downloads -f ./common.crc # Clean the Download folder with the common.crc file
+crabby -c . # Clean the current folder with the .crc file that is in the current folder
+crabby -c ./Downloads -f ./common.crc # Clean the Download folder with the common.crc file
 ```
 
 ## What is a .crc file ?
 
-A `.crc` file is a configuration file for CrabCleaner. Its goal is to be executed on one or multiple folders, to clean them following some rules.
+A `.crc` file is a configuration file for Crabby. Its goal is to be executed on one or multiple folders, to clean them following some rules.
 
 ### Examples
 
@@ -70,7 +70,7 @@ suf *presentation.pdf with _urgent                    // This rule adds `_urgent
 ### Ideas
 
 - Plug to `watchman`to have a `--daemon` mode
-- Create a `crabcleaner.service`
+- Create a `crabby.service`
 
 ### TODO
 
@@ -116,9 +116,9 @@ unzip *music.zip to %USERPROFILE%/Documents/Music     // This rule unzip all fil
 
 #### September 2020 v0.3.0
 
-- [ ] Add `crabcleaner -c ./* # Clean the current folder and all the subfolders with one level of depth`
-- [ ] Add `crabcleaner -c ./*/* # Clean the current folder and all the subfolders with two level of depth`
-- [ ] Add `crabcleaner -c ./** # Clean the current folder and all the subfolders with max level of depth`
+- [ ] Add `crabby -c ./* # Clean the current folder and all the subfolders with one level of depth`
+- [ ] Add `crabby -c ./*/* # Clean the current folder and all the subfolders with two level of depth`
+- [ ] Add `crabby -c ./** # Clean the current folder and all the subfolders with max level of depth`
 - [ ] Add Linux support.
 - [ ] Add Mac support.
 
@@ -128,7 +128,6 @@ unzip *music.zip to %USERPROFILE%/Documents/Music     // This rule unzip all fil
 
 ## Contributors
 
-- [ElifCilingir](https://github.com/ElifCilingir)
-- [hakimMzabi](https://github.com/hakimMzabi)
-- [ch-ang](https://github.com/ch-ang)
+Thanks to contributors that helped for the project development !
+
 - [yvan-sraka](https://github.com/yvan-sraka)

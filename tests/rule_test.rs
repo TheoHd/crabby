@@ -1,4 +1,4 @@
-use crabcleaner::{App, Rule};
+use crabby::{App, Rule};
 
 #[test]
 fn rule_get_line_value_works() {

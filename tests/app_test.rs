@@ -1,4 +1,4 @@
-use crabcleaner::App;
+use crabby::App;
 
 #[test]
 fn app_get_configurations_works() {

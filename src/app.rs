@@ -137,9 +137,9 @@ impl App {
 
     /// Return a ClapArgMatches to retrieve arguments values
     fn cli_switch(test: bool) -> ClapArgMatches<'static> {
-        Clap::new("crabcleaner")
+        Clap::new("crabby")
         .version("0.1.0")
-        .about("CrabCleaner is a fast and safe way to manipulate files directly from your command line.")
+        .about("Crabby is a fast and safe way to manipulate files directly from your command line.")
         .author("Théo Huchard <theo.huchard@protonmail.com>")
         .arg(
             ClapArg::with_name("clean")
